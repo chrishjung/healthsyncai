@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
 }
 
 // --------------------------------------------------
-// HOME SCREEN (Your full widget layout restored)
+// HOME SCREEN
 // --------------------------------------------------
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -137,7 +137,10 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     const Text(
                       'Notifications',
-                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                     const SizedBox(height: 8),
                     ElevatedButton(
@@ -218,7 +221,10 @@ class HomeScreen extends StatelessWidget {
                   children: const [
                     Text(
                       'Time in Range',
-                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                     SizedBox(height: 12),
                     LinearProgressIndicator(value: 0.6),
